@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://ch64jhg4b7enx"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_4xowi"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4xowi"]
+albedo_color = Color(0.6011273, 0.59855026, 0.61969674, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_a202f"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_noarx"]
+
+[sub_resource type="PrismMesh" id="PrismMesh_a202f"]
+
+[node name="Node3D" type="Node3D" unique_id=548877552]
+
+[node name="MeshInstance3D_1" type="MeshInstance3D" parent="." unique_id=185801168]
+transform = Transform3D(33.82617, 0, 0, 0, 0.080732465, 0, 0, 0, 28.861423, 0, 0, 0)
+mesh = SubResource("BoxMesh_4xowi")
+surface_material_override/0 = SubResource("StandardMaterial3D_4xowi")
+
+[node name="MeshInstance3D_2" type="MeshInstance3D" parent="." unique_id=1241558101]
+transform = Transform3D(0.9036356, 0, 0, 0, 1.0527396, 0, 0, 0, 1.1069494, 0.21636772, 0.79582393, -6.6602173)
+mesh = SubResource("CylinderMesh_a202f")
+
+[node name="MeshInstance3D_6" type="MeshInstance3D" parent="." unique_id=28867785]
+transform = Transform3D(1.8130908, 0, 0, 0, 2.0233269, 0, 0, 0, 1.9127251, 7.5484667, 0.79582393, -5.5430117)
+mesh = SubResource("CylinderMesh_a202f")
+
+[node name="MeshInstance3D_3" type="MeshInstance3D" parent="." unique_id=896574550]
+transform = Transform3D(1.2638874, 0, 0, 0, 2.005235, 0, 0, 0, 1.453202, -3.7441015, 0.79582393, 2.3259473)
+mesh = SubResource("CylinderMesh_a202f")
+
+[node name="MeshInstance3D_4" type="MeshInstance3D" parent="." unique_id=570004046]
+transform = Transform3D(0.87160146, 0, -1.0523679, 0, 0.3554711, 0, 0.91527164, 0, 1.0021565, 2.0527554, 0.103323996, 2.0552225)
+mesh = SubResource("BoxMesh_noarx")
+
+[node name="MeshInstance3D_5" type="MeshInstance3D" parent="." unique_id=1328941154]
+transform = Transform3D(0.6703206, 0, -2.040783, 0, 0.6806147, 0, 0.9972791, 0, 1.3717111, 2.0527554, 0.27069098, 2.4239254)
+mesh = SubResource("BoxMesh_noarx")
+
+[node name="MeshInstance3D_7" type="MeshInstance3D" parent="." unique_id=1396254782]
+transform = Transform3D(-2.2983232, 0, -1.0004985, 0, 1.0691848, 0, 1.0034442, 0, -2.2915764, 7.6269703, 0.49074274, 5.161702)
+mesh = SubResource("BoxMesh_noarx")
+
+[node name="MeshInstance3D_8" type="MeshInstance3D" parent="." unique_id=580402481]
+transform = Transform3D(-0.8255247, 0, 0.31663293, 0, 1.0691849, 0, -0.14334968, 0, -1.8234316, -6.6313343, 0.2493735, 8.288909)
+mesh = SubResource("BoxMesh_noarx")
+
+[node name="MeshInstance3D_9" type="MeshInstance3D" parent="." unique_id=325001735]
+transform = Transform3D(-4.202604, 0, -1.8104386, 0, 3.08762, 0, 3.0998993, 0, -2.4544525, -10.408152, 0.51025206, -5.2455916)
+mesh = SubResource("PrismMesh_a202f")
