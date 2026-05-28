@@ -49,3 +49,7 @@ mesh = SubResource("BoxMesh_noarx")
 [node name="MeshInstance3D_9" type="MeshInstance3D" parent="." unique_id=325001735]
 transform = Transform3D(-4.202604, 0, -1.8104386, 0, 3.08762, 0, 3.0998993, 0, -2.4544525, -10.408152, 0.51025206, -5.2455916)
 mesh = SubResource("PrismMesh_a202f")
+
+[node name="MeshInstance3D_10" type="MeshInstance3D" parent="." unique_id=670597364]
+transform = Transform3D(-0.83110803, 0, 2.020724, -0.054201268, 0.9920167, -0.02675894, -1.8435924, -0.029165102, -0.91017383, -10.72792, 0.13982803, 1.7396216)
+mesh = SubResource("PrismMesh_a202f")
